@@ -12,8 +12,8 @@ tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 
 #from clearml import Task
 import os
-os.environ["CLEARML_PROJECT"] = "Test-project-XP-Tracking"
-os.environ["CLEARML_TASK"] = "Question-Answering-Task-3"
+os.environ["CLEARML_PROJECT"] = "Tracking-XP-From-Docker"
+os.environ["CLEARML_TASK"] = "Question-Answering-Task-1"
 os.environ["CLEARML_LOG_MODEL"] = "True"
 
 

@@ -5,6 +5,8 @@ __pycache__/
 
 
 my_awesome_qa_model_v2/*
+credential.env
+clearml.conf
 
 # C extensions
 *.so

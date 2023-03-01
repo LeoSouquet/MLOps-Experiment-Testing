@@ -86,7 +86,7 @@ from transformers import AutoModelForQuestionAnswering, TrainingArguments, Train
 model = AutoModelForQuestionAnswering.from_pretrained("distilbert-base-uncased")
 
 training_args = TrainingArguments(
-    output_dir="my_awesome_qa_model_v2",
+    output_dir="my_awesome_qa_model",
     evaluation_strategy="epoch",
     learning_rate=2e-5,
     per_device_train_batch_size=16,
